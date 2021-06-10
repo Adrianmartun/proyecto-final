@@ -1,0 +1,78 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+div a{
+    padding: 15px;
+}
+#redes{
+    display: flex;
+    flex-direction: column;
+}
+
+#foto{
+    width: 90%;
+    border-radius: 35px;
+
+}
+#foto2{
+    width: 100%;
+    border-radius: 25px;
+}
+#foto3{
+    width: 100%;
+    border-radius: 25px;
+}
+#foto4{
+    width: 100%;
+    border-radius: 35px;
+
+}
+
+.principal{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(8, auto);
+    gap: 25px;
+}
+
+.principal > div{
+    background-color: lightblue;
+    border-radius: 35px;
+    border: black solid;
+    text-align: center;
+}
+
+.A{
+    grid-column: span 10;
+   
+}
+
+.B{
+    grid-column: span 3;
+    grid-row: span 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.C{
+    grid-column: span 6;
+    grid-row: span 4;
+}
+
+.D{
+    grid-row: span 2;
+}
+
+.E{
+    grid-row: span 2;
+}
+
+.F{
+    grid-column: span 9;
+}
+.H{
+    grid-column: span 10;
+}
