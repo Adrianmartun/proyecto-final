@@ -12,7 +12,7 @@ div a{
 }
 
 #foto{
-    width: 90%;
+    width: 100%;
     border-radius: 35px;
 
 }
@@ -44,6 +44,12 @@ div a{
     text-align: center;
 }
 
+.imge{
+    transition: all 1.8s;
+}
+.imge :hover{
+    transform: scale(1.5);
+}
 .A{
     grid-column: span 10;
    
@@ -76,3 +82,4 @@ div a{
 .H{
     grid-column: span 10;
 }
+
